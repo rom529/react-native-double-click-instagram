@@ -1,0 +1,23 @@
+{
+  "name": "react-native-double-click-instagram",
+  "version": "1.0.0",
+  "description": "react native double click component with instagram heart animation option",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "native",
+    "instagram",
+    "double",
+    "heart",
+    "tap",
+    "click"
+  ],
+  "repository": "https://github.com/rom529/react-native-double-click-instagram.g```it",
+  "author": "CD-ROM <39781739+rom529@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@expo/vector-icons": "^10.2.0",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2"
+  }
+}
