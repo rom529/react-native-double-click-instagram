@@ -10,6 +10,8 @@ A react native double click function with instagram heart animation option
 ## Usage
 
 ```js
+import DoubleClick from "react-native-double-click-instagram";
+
 export default class App extends React.Component {
   render() {
     return (
@@ -44,6 +46,7 @@ export default class App extends React.Component {
 | delay     | number   | 300     | Time for delay between taps     |
 | timeout   | number   | 1000    | Time for show heart animation   |
 | color     | string   | red     | Color of the icon               |
+| size      | number   | 120     | Size of the icon                |
 
 ## License
 

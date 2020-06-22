@@ -66,8 +66,8 @@ const DoubleClick = (props) => {
 
   return (
     <TouchableWithoutFeedback onPress={onPress}>
-      {props.icon && (
-        <View>
+      <View>
+        {props.icon && (
           <Animated.View
             style={{
               opacity: fadeAnim,
@@ -76,13 +76,13 @@ const DoubleClick = (props) => {
           >
             <MaterialIcons
               name="favorite"
-              size={120}
+              size={props.size ? props.size : 120}
               color={props.color ? props.color : "rgba(255, 102, 102, 0.88)"}
             />
           </Animated.View>
-          {props.children}
-        </View>
-      )}
+        )}
+        {props.children}
+      </View>
     </TouchableWithoutFeedback>
   );
 };
