@@ -47,6 +47,7 @@ export default class App extends React.Component {
 | timeout   | number   | 1000    | Time for show heart animation   |
 | color     | string   | red     | Color of the icon               |
 | size      | number   | 120     | Size of the icon                |
+| customIcon      | JSX Element   | undefined     | Use your own component/Icon instead of instagram heart icon                |
 
 ## License
 
