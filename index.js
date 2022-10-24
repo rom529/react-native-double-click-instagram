@@ -74,11 +74,16 @@ const DoubleClick = (props) => {
               ...styles.favoriteIcon,
             }}
           >
-            <MaterialIcons
-              name="favorite"
-              size={props.size ? props.size : 120}
-              color={props.color ? props.color : "rgba(255, 102, 102, 0.88)"}
-            />
+           {
+              props.customIcon ? 
+                (props.customIcon )
+                : 
+                <MaterialIcons
+                name="favorite"
+                size={props.size ? props.size : 120}
+                color={props.color ? props.color : "rgba(255, 102, 102, 0.88)"}
+              />
+            }
           </Animated.View>
         )}
         {props.children}
