@@ -66,7 +66,7 @@ const DoubleClick = (props) => {
 
   return (
     <TouchableWithoutFeedback onPress={onPress}>
-      <View>
+      <View style={props.containerStyle}>
         {props.icon && (
           <Animated.View
             style={{
